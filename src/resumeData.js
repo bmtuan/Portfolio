@@ -30,7 +30,7 @@ let resumeData = {
       specialization: "Computer Science",
       MonthOfPassing: "Aug",
       YearOfPassing: "2022",
-      Achievements: "Good bachelor's degree",
+      Achievements: "Very good bachelor's degree.",
     },
   ],
   work: [
@@ -88,31 +88,57 @@ let resumeData = {
       skillname: "Hadoop, Spark, Elasticsearch, Kafka, K8s, K9s",
     },
   ],
+  certificatinos: [
+    {
+      name:"",
+      description:"Click for detail",
+      imgurl:"images/certifications/introduce2python.png",
+      link:"https://www.sololearn.com/certificates/CC-XU4K3BLJ"
+    },
+    {
+      name:"",
+      description:"Click for detail",
+      imgurl:"images/certifications/python4ds.png",
+      link:"https://www.sololearn.com/certificates/CT-39PNNKA0"
+    },
+    {
+      name:"",
+      description:"Click for detail",
+      imgurl:"images/certifications/python9.png",
+      link:"https://www.sololearn.com/certificates/CT-3ZAAZYFT"
+    }
+  ],
+  award: [
+    {
+      name:"First Prize for OCR Task",
+      imgurl:"images/award/bkai.png",
+    }
+  ],
   portfolio: [
     {
       name: "Lisence Plate Recognition",
       description:
         "Use YOLO-v3 to detection lisence plate and Convoluiton Neural Network to recoginition character",
       imgurl: "images/portfolio/project1.jpg",
-      link: "",
+      link: "https://github.com/bmtuan/lisense_plate.git",
     },
     {
       name: "Sentiment Analysis",
       description: "Emotional classification of comments on e-commerce platform Lazada",
       imgurl: "images/portfolio/project2.jpg",
-      link: "",
+      link: "https://github.com/Haiduongcable/DataScience-SentimentAnalysis",
     },
     {
       name: "Pupil Segmentation",
       description: "Segment pupil from a video",
       imgurl: "images/portfolio/project3.jpg",
-      link: "",
+      link: "https://github.com/bmtuan/Att-Unet",
     },
     {
       name: "Air Quality Prediction",
       description: "Forecast PM2.5 index from some previous index",
       imgurl: "images/portfolio/project4.png",
-      link: "",
+      link: "https://github.com/bmtuan/TimeSeries",
     },
   ],
   testimonials: [
